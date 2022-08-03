@@ -1,0 +1,35 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+.container {
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.5);
+  width: 550px;
+}
+
+.mat-form-field {
+  width: 100%;
+  min-width: 200px;
+}
+
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  color: white;
+  background-color: indigo;
+  border-radius: 0.5rem;
+}
