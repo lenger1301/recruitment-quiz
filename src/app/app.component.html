@@ -1,9 +1,10 @@
 <mat-toolbar>
   <span>Online Quiz System</span>
-  <div class="login-register-button">
+  <div class="login-register-button" [hidden]="isNotLogin">
     <button mat-raised-button color="primary" routerLink="/login">Login</button>
-    <button mat-raised-button color="primary" routerLink="/register">Register</button>
+  </div>
+  <div class="logout-button" [hidden]="!isNotLogin">
+    <button mat-raised-button color="primary" (click)="logout()" routerLink="/login">Logout</button>
   </div>
 </mat-toolbar>
 <router-outlet></router-outlet>
-  

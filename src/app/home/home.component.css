@@ -1,5 +1,13 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 1rem;
+}
+
+.header {
+  display: inherit;
+  justify-content: space-between;
 }
 
 button {
@@ -16,3 +24,4 @@ table {
   margin-top: 1rem;
   width: 100%;
 }
+
